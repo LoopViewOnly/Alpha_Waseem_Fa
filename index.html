@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #1e293b;
+    padding: 1.2rem;
+    margin: 0;
+    gap: 2.5rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.2);
+}
+
+nav a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #818cf8;
+}
+
+.hero, .ideas-section {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+h1, h2 {
+    color: #f8fafc;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+
+.spacer {
+    height: 30px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 35%;
+    min-width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 0.4);
+    border: 2px solid #334155;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: translateY(-4px);
+    border-color: #38bdf8;
+}
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4703/4703650.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>PC BUILD</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="motherboard.html">Motherboard</a></li>
+            <li><a href="cpu.html">CPU</a></li>
+            <li><a href="gpu.html">GPU</a></li>
+            <li><a href="RAM.html">RAM</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 id="a1">Learn about pc parts</h1>
+    </header>
+
+    <div id="div1" class="spacer"></div>
+
+    <section class="ideas-section">
+        <h2>Here are some PC ideas</h2>
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDuhOKLM-FyjDNbzkeG1F8AVV6EwJwQz4zqiB8ICoR4g&s=10" alt="PC Build Idea 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0-4lJp5A4IGdQpnq8hzQQjeKy-EBmkNvOIxybekyYmA&s=10" alt="PC Build Idea 2">
+        </div>
+    </section>
+
+</body>
+</html>

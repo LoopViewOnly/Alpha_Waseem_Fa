@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motherboard</title>
+    <style>
+        body {
+            background-color: aqua;
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation bar linking your pages together */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            background: #1e293b;
+            padding: 1.2rem;
+            margin: 0 0 2rem 0;
+            gap: 2.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.2);
+        }
+
+        nav a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: #818cf8;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(83, 12, 214);
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            letter-spacing: -0.025em;
+        }
+
+        p {
+            color: rgb(83, 12, 214);
+            font-size: 1.35rem;
+            line-height: 1.6;
+            margin-bottom: 2.5rem;
+            font-weight: 500;
+        }
+
+        img {
+            width: 60%;
+            min-width: 280px;
+            border-radius: 16px;
+            box-shadow: 0 12px 25px -5px rgba(83, 12, 214, 0.4);
+            border: 3px solid rgb(83, 12, 214);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 16px 30px -5px rgba(83, 12, 214, 0.6);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="motherboard.html">Motherboard</a></li>
+            <li><a href="cpu.html">CPU</a></li>
+            <li><a href="gpu.html">GPU</a></li>
+            <li><a href="RAM.html">RAM</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-container">
+        <h1>Motherboard</h1>
+        
+        <p>
+            A motherboard is the main board inside a computer. It connects all the
+            computer parts, like the CPU, RAM, and GPU. Famous motherboard companies
+            include ASUS and MSI.
+        </p>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKIfQ5FwJ7c0E5pUMEHIGPpR6AUrpY2YJhQUk4EPlo1w&s=10" alt="Motherboard">
+    </div>
+
+</body>
+
+</html>

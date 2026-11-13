@@ -1,0 +1,75 @@
+/* Ensure consistent box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#a1 {
+  font-family: "Comfortaa", sans-serif;
+  color: rgb(114, 16, 16);
+}
+
+/* Responsive Navigation Bar using Flexbox */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap if space is tight */
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #040405;
+}
+
+/* Media Query for Mobile Devices (screens 600px and smaller) */
+@media screen and (max-width: 600px) {
+  ul {
+    flex-direction: column; /* Stack menu items vertically on mobile */
+  }
+
+  li {
+    width: 100%; /* Make each list item span the full width */
+  }
+
+  li a {
+    text-align: left;
+    padding: 12px 20px;
+  }
+  
+  
+
+      .container 
+      {
+          display: flex;
+          gap: 20px;
+      }
+
+      .container div 
+      {
+          width: 50%;
+          text-align: center;
+      }
+
+      .container img 
+      {
+          width: 80%;
+      }
+
+
+}

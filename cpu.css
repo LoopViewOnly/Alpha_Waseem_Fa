@@ -1,0 +1,36 @@
+body
+{
+    background-color: aqua;
+
+ h2 {
+color:rgb(83, 12, 214) ;
+ }
+#Key{
+color:black
+}
+
+
+
+
+
+
+
+}
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.container div {
+    width: 40%;
+}
+
+.container img {
+    width: 80%;
+}   
+
+
+
+

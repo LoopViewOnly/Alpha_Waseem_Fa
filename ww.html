@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTX 5090 | Ultimate GPU Showcase</title>
+    <style>
+        :root {
+            --bg-color: #08090d;
+            --card-bg: rgba(18, 20, 32, 0.7);
+            --neon-cyan: #00f0ff;
+            --neon-purple: #9d4edd;
+            --text-main: #f0f4f8;
+            --text-muted: #94a3b8;
+            --border-glow: rgba(0, 240, 255, 0.3);
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(157, 78, 221, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(0, 240, 255, 0.1) 0%, transparent 40%);
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            margin: 0;
+            background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(0, 240, 255, 0.4);
+        }
+
+        .intro-container {
+            max-width: 850px;
+            margin: 0 auto 50px auto;
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            color: var(--text-muted);
+            font-size: 1.15rem;
+            line-height: 1.7;
+            margin: 0;
+            text-align: center;
+        }
+
+        .showcase-card {
+            max-width: 700px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border-glow);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 0 40px rgba(0, 240, 255, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .showcase-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 60px rgba(0, 240, 255, 0.25);
+        }
+
+        .showcase-card h2 {
+            color: var(--text-main);
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .showcase-card h3 {
+            color: var(--neon-cyan);
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .img-wrapper {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: #000;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .img-wrapper:hover img {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>GPU TECHNOLOGY</h1>
+    </header>
+
+    <div class="intro-container">
+        <p>
+            <strong>GeForce RTX Series:</strong> Built for consumer PC gaming, content creation, and local AI workloads. The latest lineup is
+            the GeForce RTX 50 Series (featuring models like the RTX 5090, 5080, and 5070) powered by the Blackwell
+            architecture, alongside previous generation RTX 40 and RTX 30 series cards.
+        </p>
+    </div>
+
+    <div class="showcase-card">
+        <h2>This is one of my fav GPU</h2>
+        <h3>5090 Graphic Card</h3>
+        
+        <div class="img-wrapper">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBgVk03TjJ6DJsopBao0X51TkuFWU9rmGQnn13BVSNNA&s=10" alt="RTX 5090">
+        </div>
+    </div>
+
+</body>
+
+</html>
